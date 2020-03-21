@@ -34,13 +34,26 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+    Semantic HTML refers as writing HTML code in a way that is meaningful. This practice allows browsers, search engines, and other developers better understand a website.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+    1) Display: inline will not accept height and width. It will just ignore it.
+    2) Display: block elements will not sit inline but break past them. By default these elements take up as much horizontal space as they can.
 
 3. What are the 4 areas of the box model?
 
+    Content, padding, border and margin.
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+    Cross axis which is perpendicular to the main axis.
+
 5. Explain why git is valuable to a team of developers.
+
+    Version control systems give developers many features that are important when writing code. This includes recording every change made on code files, allowing you to revert to previous versions of the code, allowing to compare different versions of code files and helping a team of developers see who created a piece of code and when they did it. 
+    
+    Nowadays, Git is the most popular and widely used version control out there. Git is valuable for developers because it has a greater performance and it is more reliable than other version controls. On Git, you can easily commit changes, version branches can be compared and merged efficiently and code can be optimized to perform better. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
