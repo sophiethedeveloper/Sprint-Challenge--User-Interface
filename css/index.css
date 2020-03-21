@@ -71,6 +71,34 @@ p {
     margin: 0 auto;
 }
 
+header#header {
+    margin: 30px 0;;
+}
+
+/* Navbar style */
+nav.navbar {
+	display: flex;
+    flex-flow: wrap;
+    align-items: baseline;
+}
+
+nav.navbar .nav-links .nav-item{
+	margin: 0 38px;
+	text-decoration: none;
+	color: #000000;
+	font-weight: bold;
+}
+
+nav.navbar .nav-links .nav-item:hover {
+	color: #C0C0C0;
+}
+
+div.main-img {
+    display: flex;
+    width: 100%;
+    margin: 40px 0;;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -112,6 +140,67 @@ p {
     justify-content: center;
 }
 
+
+#teal {
+    background: teal;
+    animation-name: teal;
+    animation-duration: 4s;
+  }
+  
+  #gold {
+    background: gold;
+    animation-name: gold;
+    animation-duration: 4s;
+  }
+  
+  #cadetblue {
+    background: cadetblue;
+    animation-name: cadetblue;
+    animation-duration: 4s;
+  }
+  
+  #coral {
+    background: coral;
+    animation-name: coral;
+    animation-duration: 4s;
+  }
+  
+  #crimson {
+   background: crimson;
+   animation-name: crimson;
+    animation-duration: 4s;
+  }
+  
+  #forestgreen {
+    background: forestgreen;
+    animation-name: forestgreen;
+    animation-duration: 4s;
+  }
+  
+  #darkorchid {
+    background: darkorchid;
+    animation-name: darkorchid;
+    animation-duration: 4s;
+  }
+  
+  #hotpink {
+    background: hotpink;
+    animation-name: hotpink;
+    animation-duration: 4s;
+  }
+  
+  #indigo {
+    background: indigo;
+    animation-name: indigo;
+    animation-duration: 4s;
+  }
+  
+  #dodgerblue {
+    background: dodgerblue;
+    animation-name: dodgerblue;
+    animation-duration: 4s;
+  }
+  
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +232,55 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+@keyframes teal {
+    from {background-color: teal;}
+  to {background-color: black;}
+}
+
+@keyframes gold {
+    from {background-color: gold;}
+  to {background-color: black;}
+}
+
+@keyframes cadetblue {
+    from {background-color: cadetblue;}
+  to {background-color: black;}
+}
+
+@keyframes coral {
+    from {background-color: coral;}
+  to {background-color: black;}
+}
+
+@keyframes crimson {
+    from {background-color: crimson;}
+  to {background-color: black;}
+}
+
+@keyframes forestgreen {
+    from {background-color: forestgreen;}
+  to {background-color: black;}
+}
+
+@keyframes darkorchid {
+    from {background-color: darkorchid;}
+  to {background-color: black;}
+}
+
+@keyframes hotpink {
+    from {background-color: hotpink;}
+  to {background-color: black;}
+}
+
+@keyframes indigo {
+    from {background-color: indigo;}
+  to {background-color: black;}
+}
+
+@keyframes dodgerblue {
+    from {background-color: dodgerblue;}
+  to {background-color: black;}
 }
