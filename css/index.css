@@ -71,6 +71,34 @@ p {
     margin: 0 auto;
 }
 
+header#header {
+    margin: 30px 0;;
+}
+
+/* Navbar style */
+nav.navbar {
+	display: flex;
+    flex-flow: wrap;
+    align-items: baseline;
+}
+
+nav.navbar .nav-links .nav-item{
+	margin: 0 38px;
+	text-decoration: none;
+	color: #000000;
+	font-weight: bold;
+}
+
+nav.navbar .nav-links .nav-item:hover {
+	color: #C0C0C0;
+}
+
+div.main-img {
+    display: flex;
+    width: 100%;
+    margin: 40px 0;;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -111,6 +139,48 @@ p {
     align-items: center;
     justify-content: center;
 }
+
+#teal {
+    background: teal;
+  }
+  
+  #gold {
+    background: gold;
+  }
+  
+  #cadetblue {
+    background: cadetblue;
+  }
+  
+  #coral {
+    background: coral;
+  }
+  
+  #crimson {
+   background: crimson;
+  }
+  
+  #forestgreen {
+    background: forestgreen;
+  }
+  
+  #darkorchid {
+    background: darkorchid;
+  }
+  
+  #hotpink {
+    background: hotpink;
+  }
+  
+  #indigo {
+    background: indigo;
+  }
+  
+  #dodgerblue {
+    background: dodgerblue;
+  }
+  
+
 
 .bottom-content {
     display: flex;
